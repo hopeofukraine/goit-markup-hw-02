@@ -15,6 +15,7 @@
   --secondary-bg-cl: #f4f4fd;
   --light-bg-cl: #ffffff;
   --third-bg-cl: #e7e9fc;
+  --btn-bg-cl: #4d5ae5;
 
   /* Others */
 }
@@ -87,7 +88,7 @@ body {
 
 /* Hero */
 .hero-section {
-  background-color: #2e2f42;
+  background-color: var(--primary-bg-cl);
   color: var(--light-txt-cl);
 }
 .hero-title {
@@ -101,7 +102,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--light-txt-cl);
-  background-color: var(--accent-txt-cl);
+  background-color: var(--btn-bg-cl);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -169,6 +170,9 @@ body {
   font-size: 20px;
   line-height: calc(24 / 20);
   color: var(--primary-txt-cl);
+}
+.team-item-desc {
+  color: var(--secondary-txt-cl);
 }
 /* Footer */
 .footer {
