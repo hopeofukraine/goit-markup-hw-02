@@ -112,6 +112,8 @@ body {
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   color: var(--light-txt-cl);
   background-color: var(--btn-bg-cl);
@@ -130,7 +132,6 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
-  color: var(--primary-txt-cl);
 }
 .features-desc {
   font-weight: 400;
@@ -213,6 +214,8 @@ body {
   cursor: pointer;
   font-family: inherit;
   font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   color: var(--accent-txt-cl);
   background-color: var(--secondary-bg-cl);
@@ -231,13 +234,14 @@ body {
 }
 .content-list {
 }
+.content-link {
+}
 .content-item {
 }
 .content-item-name {
   font-weight: 500;
   font-size: 20px;
   line-height: calc(24 / 20);
-  color: var(--primary-txt-cl);
 }
 .content-item-desc {
   color: var(--secondary-txt-cl);
